@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rogge Group — UNSW School of Physics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-brand-name">Rogge Group</span>
+      <span class="nav-brand-sub">UNSW School of Physics</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="research.html" class="nav-link">Research</a>
+      <a href="people.html" class="nav-link">People</a>
+      <a href="publications.html" class="nav-link">Publications</a>
+      <a href="news.html" class="nav-link">News</a>
+      <a href="positions.html" class="nav-link">Positions</a>
+    </div>
+    <button class="nav-menu-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-eyebrow">ARC Centre of Excellence for Quantum Computer Performance and Integration</div>
+        <h1 class="hero-title">Rogge Group</h1>
+        <p class="hero-blurb">
+          We probe quantum matter and build quantum interfaces at the atomic scale —
+          using ultralow-temperature STM to uncover emergent phenomena in quantum
+          materials, developing erbium emitters in silicon for telecom-wavelength
+          quantum networking, and manufacturing superconducting nanowire single-photon
+          detectors for optical quantum information processing.
+        </p>
+        <div class="hero-actions">
+          <a href="research.html" class="btn btn-primary">Our Research</a>
+          <a href="people.html" class="btn btn-secondary">Meet the Team</a>
+        </div>
+      </div>
+      <div class="hero-graphic" aria-hidden="true">
+        <div class="atom-ring atom-ring-1"></div>
+        <div class="atom-ring atom-ring-2"></div>
+        <div class="atom-ring atom-ring-3"></div>
+        <div class="atom-core"></div>
+        <div class="atom-dot dot-1"></div>
+        <div class="atom-dot dot-2"></div>
+        <div class="atom-dot dot-3"></div>
+      </div>
+    </div>
+    <div class="hero-affil">
+      <span>UNSW Sydney</span>
+      <span class="affil-sep">·</span>
+      <span>School of Physics</span>
+      <span class="affil-sep">·</span>
+      <span>ARC QPI</span>
+    </div>
+  </section>
+
+  <!-- ── Research Overview ── -->
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-label">Research</div>
+
+      <div class="research-grid research-grid-3">
+
+        <a href="research.html#erbium" class="research-card">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="4" fill="currentColor"/>
+              <ellipse cx="20" cy="20" rx="16" ry="7" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              <ellipse cx="20" cy="20" rx="16" ry="7" stroke="currentColor" stroke-width="1.5" fill="none" transform="rotate(60 20 20)"/>
+              <ellipse cx="20" cy="20" rx="16" ry="7" stroke="currentColor" stroke-width="1.5" fill="none" transform="rotate(120 20 20)"/>
+            </svg>
+          </div>
+          <h3>Erbium Emitters in Si</h3>
+          <p>
+            Studying the spin and optical properties of erbium implanted in silicon,
+            with the goal of integrating single Er ions into nanophotonic cavities
+            for quantum networking and transduction at telecom wavelengths.
+          </p>
+        </a>
+
+        <a href="research.html#snspd" class="research-card">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="24" width="28" height="10" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M14 24 L14 10 M20 24 L20 6 M26 24 L26 10" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="6" r="2" fill="currentColor"/>
+              <circle cx="14" cy="10" r="2" fill="currentColor"/>
+              <circle cx="26" cy="10" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Superconducting Nanowire Single Photon Detectors</h3>
+          <p>
+            Developing and manufacturing custom SNSPDs — the world's most sensitive
+            photon detectors — operating at telecom wavelengths with near-unity
+            efficiency, low dark counts, and high count rates.
+          </p>
+        </a>
+
+        <a href="research.html#stm" class="research-card">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="20" y1="4" x2="20" y2="36" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="20" y1="36" x2="8" y2="28" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="20" y1="36" x2="32" y2="28" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="5" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Scanning Tunnelling Microscopy</h3>
+          <p>
+            Ultralow-temperature STM with high-frequency and optical capabilities —
+            probing loss mechanisms in superconducting films, correlated states in
+            disordered systems, and spatially precise single electron spin resonance.
+          </p>
+        </a>
+
+        <div class="research-card" style="display:none">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="3" fill="currentColor"/>
+              <line x1="20" y1="8" x2="20" y2="14" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="20" y1="26" x2="20" y2="32" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="8" y1="20" x2="14" y2="20" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="26" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Donor Atom Qubits</h3>
+          <p>
+            Using scanning tunnelling microscopy and spectroscopy to place
+            and probe individual donor atoms in silicon with atomic precision —
+            the building blocks of a phosphorus-in-silicon quantum processor.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="research-cta">
+        <a href="research.html" class="link-arrow">Explore all research areas →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PI Feature ── -->
+  <section class="section section-tinted" id="pi">
+    <div class="container pi-layout">
+      <div class="pi-text">
+        <div class="section-label">Group Leader</div>
+        <h2 class="pi-name">Scientia Professor<br/>Sven Rogge</h2>
+        <p class="pi-bio">
+          Sven Rogge is a Scientia Professor at UNSW Sydney and Dean of the
+          Faculty of Science. He leads the Silicon Qubit Environment and
+          Interface program within the ARC Centre of Excellence for Quantum
+          Computer Performance and Integration (ARC QPI). His group brings
+          together experimental and theoretical approaches to understand how
+          qubits interact with the silicon environment — work that is central
+          to the push toward scalable silicon quantum computers.
+        </p>
+        <p class="pi-bio">
+          Before joining UNSW in 2011, Sven held positions at the Kavli
+          Institute for Quantum Nanoscience at Delft University and at
+          Stanford University.
+        </p>
+        <div class="pi-links">
+          <a href="https://research.unsw.edu.au/people/scientia-professor-sven-rogge" target="_blank" rel="noopener" class="link-arrow">UNSW Research Profile →</a>
+          <a href="https://scholar.google.com/citations?user=0EeBxOIAAAAJ" target="_blank" rel="noopener" class="link-arrow">Google Scholar →</a>
+        </div>
+      </div>
+      <div class="pi-card-wrap">
+        <div class="pi-card">
+          <div class="pi-card-initials"><img src="sven-rogge.png" alt="Sven Rogge" style="width:100%;height:100%;object-fit:cover;border-radius:50%;display:block;" /></div>
+          <div class="pi-card-details">
+            <div class="pi-card-name">Scientia Professor Sven Rogge</div>
+            <div class="pi-card-role">Group Leader &amp; Dean, Faculty of Science</div>
+            <div class="pi-card-dept">School of Physics, UNSW Sydney</div>
+            <div class="pi-card-affil">ARC Centre of Excellence for Quantum Computer Performance and Integration</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── News Highlights ── -->
+  <section class="section" id="news">
+    <div class="container">
+      <div class="section-label">News</div>
+      <h2 class="section-title">Latest Updates</h2>
+
+      <div class="news-list">
+        <article class="news-item">
+          <div class="news-date">Dec 2025</div>
+          <div class="news-body">
+            <h3 class="news-title">
+              <a href="https://www.unsw.edu.au/news/2025/12/Prof-Andrea-Morello-To-Lead-New-Quantum-Research-Centre" target="_blank" rel="noopener">
+                New Quantum Research Centre at UNSW
+              </a>
+            </h3>
+            <p class="news-blurb">
+              Prof. Andrea Morello to lead a new quantum research centre at UNSW,
+              deepening the university's commitment to silicon-based quantum computing
+              and the broader ARC QPI programme.
+            </p>
+          </div>
+        </article>
+
+        <article class="news-item news-item-placeholder">
+          <div class="news-date">—</div>
+          <div class="news-body">
+            <h3 class="news-title">Group news coming soon</h3>
+            <p class="news-blurb">
+              Check back here for publications, announcements, and group milestones.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="research-cta">
+        <a href="news.html" class="link-arrow">All news →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+
+  <script src="nav.js" defer></script>
+</body>
+</html>

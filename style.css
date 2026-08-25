@@ -1149,6 +1149,10 @@ a { color: inherit; text-decoration: none; }
   }
   .footer-copy { text-align: left; }
   .footer-nav { align-items: flex-start; }
+
+  .research-area-title { white-space: normal; }
+
+  .research-area-body { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
@@ -1161,4 +1165,8 @@ a { color: inherit; text-decoration: none; }
   }
 
   .person-links { justify-content: center; }
+
+  .research-figures { grid-template-columns: 1fr; }
+
+  .research-figure-pair-imgs { grid-template-columns: 1fr; }
 }
